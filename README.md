@@ -91,11 +91,11 @@ PyQVault/
    ```
 
 ## 🧠 HOW IT WORKS
-  ```bash
-  1️⃣  Upload a question paper (.pdf, .jpg, .png, .jpeg)
-  2️⃣  The app extracts all text using the OCR.Space API
-  3️⃣  The extracted content is saved and displayed instantly
-  4️⃣  Use the keyword search box to find topics or even full sentences
-  5️⃣  The app shows how many times that word/sentence appears across all uploaded question papers
-  ```
+   ```bash
+   1️⃣  Upload a question paper (.pdf, .jpg, .png, .jpeg)
+   2️⃣  The app extracts all text using the OCR.Space API
+   3️⃣  The extracted content is saved and displayed instantly
+   4️⃣  Use the keyword search box to find topics or even full sentences
+   5️⃣  The app shows how many times that word/sentence appears across all uploaded question papers
+   ```
 
