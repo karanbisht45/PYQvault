@@ -90,7 +90,7 @@ PyQVault/
    streamlit run app.py
    ```
 
-##🧠 HOW IT WORKS
+## 🧠 HOW IT WORKS
   ```bash
   1️⃣  Upload a question paper (.pdf, .jpg, .png, .jpeg)
   2️⃣  The app extracts all text using the OCR.Space API
