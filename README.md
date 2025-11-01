@@ -8,11 +8,13 @@ It allows users to **upload, search, and analyze** question papers by automatica
 ## 🚀 Features
 
 ### 🧩 Upload & Extract
-- Upload **PDFs or images** of question papers.
-- Real-time **OCR (Optical Character Recognition)** extraction using **OCR.Space API**.
-- Multi-page PDF text extraction supported.
-- Displays “Extracting text…” progress and shows extracted text on success.
-- Automatically stores both the file and its extracted text.
+  ```bash
+  - Upload **PDFs or images** of question papers.
+  - Real-time **OCR (Optical Character Recognition)** extraction using **OCR.Space API**.
+  - Multi-page PDF text extraction supported.
+  - Displays “Extracting text…” progress and shows extracted text on success.
+  - Automatically stores both the file and its extracted text.
+  ```
 
 ### 🔍 Smart Search
 - Search by **subject, semester, year, university, course code**, or **tags**.
