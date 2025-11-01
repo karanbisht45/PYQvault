@@ -46,3 +46,15 @@ It allows users to **upload, search, and analyze** question papers by automatica
 
 ## ⚙️ Project Structure
 
+PyQVault/
+│
+├── app.py # Main Streamlit app (upload + browse interface)
+├── backend.py # Database handling (insert, search, fetch)
+├── utils/
+│ ├── ocr_space_api.py # Handles OCR extraction via API
+│ └── file_handler.py # Uploads, downloads, and file utilities
+├── uploads/ # Auto-created folder for stored files
+├── database/ (optional) # SQLite DB file stored here
+├── .gitignore # Excludes DB, uploads, and secrets
+└── README.md # You're reading this 😎
+
