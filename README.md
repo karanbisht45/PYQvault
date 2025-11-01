@@ -58,3 +58,35 @@ PyQVault/
 ├── .gitignore # Excludes DB, uploads, and secrets
 └── README.md # You're reading this 😎
 
+
+---
+
+## 🔑 Environment Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/PyQVault.git
+   cd PyQVault
+2. **Install Dependencies**
+  ```bash
+  pip install -r requirements.txt
+```
+3.**Add your OCR API key**
+  ```bash
+  Open utils/ocr_space_api.py
+  Replace your key:
+  API_KEY = "YOUR_OCR_SPACE_API_KEY"
+```
+4.**Run the Streamlit app**
+  ```bash
+  streamlit run app.py
+```
+
+##🧠 HOW IT WORKS
+
+1️⃣  Upload a question paper (.pdf, .jpg, .png, .jpeg)
+2️⃣  The app extracts all text using the OCR.Space API
+3️⃣  The extracted content is saved and displayed instantly
+4️⃣  Use the keyword search box to find topics or even full sentences
+5️⃣  The app shows how many times that word/sentence appears across all uploaded question papers
+
