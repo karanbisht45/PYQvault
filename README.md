@@ -79,13 +79,13 @@ PyQVault/
    ```bash
    pip install -r requirements.txt
    ```
-3.**Add your OCR API key**
+3. **Add your OCR API key**
    ```bash
    Open utils/ocr_space_api.py
    Replace your key:
    API_KEY = "YOUR_OCR_SPACE_API_KEY"
    ```
-4.**Run the Streamlit app**
+4. **Run the Streamlit app**
    ```bash
    streamlit run app.py
    ```
